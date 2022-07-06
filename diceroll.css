@@ -1,0 +1,54 @@
+.image {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.box {
+    background-color: rgb(162, 239, 107);
+    width: 500px;
+    height: 340px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 490px;
+}
+
+.inner-box {
+    color: black;
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 100px;
+    text-align: center; 
+}
+
+.head {
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.subhead {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.but1 {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color: rgb(87, 230, 108);
+    transition: 0.3s;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    color: rgb(71, 104, 75);
+}
+
+.but1:hover {
+    background-color: rgb(78, 198, 90);
+    border: 1px solid black;
+    color: rgb(255, 253, 253);
+}

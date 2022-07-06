@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dice</title>
+    <link rel="stylesheet" href="./diceroll.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia&effect=shadow-multiple"
+    />
+  </head>
+  <body>
+    <script src="./diceroll.js"></script>
+    <div class="image">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6v7_F8luoTZgcLxPD92H2Le5gxfnrGIgVtKqUn4aPJoP5M6XTNfqiGwEYnz4vaE4GxKg&usqp=CAU"
+        alt="dice"
+      />
+    </div>
+    <div class="box">
+      <div class="inner-box">
+        <span class="head font-effect-shadow-multiple">Dice Race</span
+        ><br /><br />
+        <span class="subhead">Player 1::</span
+        ><span id="val1" class="subhead">0</span><br /><br />
+        <span class="subhead">Player 2::</span
+        ><span id="val2" class="subhead">0</span><br /><br />
+        <button onclick="roll()" class="but1">Roll Dice</button> <br /><br />
+        <span class="subhead">Current Dice Roll::</span
+        ><span id="val3" class="subhead">0</span><br /><br />
+        <span id="val4" class="subhead"><b>Result</b></span>
+      </div>
+    </div>
+  </body>
+</html>
